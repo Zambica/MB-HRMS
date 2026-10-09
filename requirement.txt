@@ -1,0 +1,27 @@
+MB-HRMS: sign-in requirements
+=============================
+
+Starter accounts (change these passwords after first sign-in)
+
+Username        Password          Role
+admin           Admin@2026        System Administrator
+hr.manager      HRManager@2026    HR Manager
+line.manager    Manager@2026      Line Manager (Retail Banking)
+mary.banda      Employee@2026     Employee (MB00123)
+
+Password rules for new or changed passwords
+- At least 8 characters
+- At least one upper-case letter, one lower-case letter and one number
+
+Sign-in rules
+- 5 wrong attempts lock the username for 5 minutes
+- Sessions end after 15 minutes of inactivity
+- New or reset accounts must change the temporary password at first sign-in
+
+Hosting requirements
+- A modern browser (Chrome, Edge, Firefox, Safari)
+- HTTPS or localhost (needed for secure password hashing)
+- GitHub Pages with Source set to GitHub Actions
+
+Note: if the repository is public, anyone can read this file. Delete it or
+change the passwords in User Management before real use.
